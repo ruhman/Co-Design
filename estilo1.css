@@ -24,5 +24,11 @@ footer{
 
 	position: absolute; 
 	top: 10px;
-	
+	border: 1px solid black;
+	width: 1350px;
+}
+
+span {
+	position: relative;
+	right: 30pc;
 }
