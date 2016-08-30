@@ -1,0 +1,20 @@
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+
+}
+.categoria{
+  border: 1px solid black;
+  width: 250px;
+  padding: 5px;
+  float: left;
+}
+
+.mim{
+  position: fixed;
+    top: 10px;
+    right: 0;
+    width: 100px;
+}
