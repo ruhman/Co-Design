@@ -1,3 +1,16 @@
+.mim{
+  position: fixed;
+    top: 10px;
+    right: 0;
+    width: 100px;
+}
+.voltar{
+  position: absolute;
+	top: 10px;
+	border: 1px solid black;
+	width: 1350px;
+
+}
 div {
     width: 1280px;
     margin: auto;
@@ -19,4 +32,3 @@ header {
 main {
     width: 1280px;
 }
-
