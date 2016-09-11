@@ -1,6 +1,9 @@
-img {
-
-	margin: 50px 100px 25px 10px;
+.pessoa {
+	margin: 50px 100px 25px 50px;
+	position: relative;
+	width:auto;
+	max-width: : 500px;
+	height: 200px;
 }
 
 body {
@@ -13,7 +16,7 @@ body {
 h2 {
 	font-size: 55px;
 	position: absolute;
-	left: 45%;
+	left: 40%;
 	top: 10%;
 	margin: 50px 10px 10px 10px;
 }
@@ -33,13 +36,12 @@ span {
 	right: 30pc;
 }
 .cabecalho {
-    /*width: auto;*/
     height: 50px;
     background-color: #660000;
 }
 .desc{
 	position: absolute;
-	left: 36%;
+	left: 31%;
 	top: 25%;
 	text-align: justify;
 	width: 450px;
