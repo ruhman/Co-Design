@@ -18,7 +18,7 @@ h2 {
    position: absolute;
    top: 560px;
    left: 1%;
-   width: 100%;
+   width: 30%;
 }
 h2 span {
    color: white;
@@ -30,10 +30,19 @@ h2 span {
 }
 
 .mim {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
     position: fixed;
     top: 10px;
-    right: 0;
-    width: 100px;
+    right: 10px;
+    width: auto;
+
+}
+
+.logo{
+	position: fixed;;
+	margin: -15px 0px 0px 50px;
 }
 
 body {

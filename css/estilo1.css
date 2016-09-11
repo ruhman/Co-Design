@@ -1,34 +1,50 @@
 img {
 
-	margin: 100px 100px 100px 100px;
+	margin: 50px 100px 25px 10px;
+}
+
+body {
+    background-color: #cc4125;
+    font-family: "Helvetica Neue";
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
-
-	position: absolute; 
-	left: 100px;
-	top: 10px;
-	margin: 150px 150px 150px 150px;
+	font-size: 55px;
+	position: absolute;
+	left: 45%;
+	top: 10%;
+	margin: 50px 10px 10px 10px;
 }
 
 h1 {
-
-	margin: 0px 100px 0px 100px;
+	text-decoration: underline;
+	margin: 50px 100px 0px 100px;
 }
 
 ul{
 
-	margin: 0px 100px 0px 100px;
-}
-footer{
-
-	position: absolute; 
-	top: 10px;
-	border: 1px solid black;
-	width: 1350px;
+	margin: 10px 100px 0px 100px;
 }
 
 span {
 	position: relative;
 	right: 30pc;
+}
+.cabecalho {
+    /*width: auto;*/
+    height: 50px;
+    background-color: #660000;
+}
+.desc{
+	position: absolute;
+	left: 36%;
+	top: 25%;
+	text-align: justify;
+	width: 450px;
+}
+.logo{
+	position: fixed;;
+	margin: -15px 0px 0px 50px;
 }
