@@ -8,41 +8,34 @@ img {
 
 .cat {
     float: left;
-    width: 30%;
+    width: 100%;
+    height: 100%;
     margin-right: 2%;
     margin-left: 1%;
     margin-bottom: 20px;
     position: relative;
 }
+
 h2 {
-   position: absolute;
-   top: 560px;
-   left: 1%;
-   width: 30%;
-}
-h2 span {
-   color: white;
-   font: bold 24px/45px Helvetica, Sans-Serif;
-   letter-spacing: -1px;
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-   padding: 10px;
+    color: white;
+    /*position: absolute;*/
+    text-align: center;
+    vertical-align: middle;
 }
 
 .mim {
     font-size: 20px;
     font-weight: bold;
     color: black;
-    position: absolute;;
+    position: absolute;
     top: 10px;
     right: 10px;
     width: auto;
-
 }
 
-.logo{
-	position: absolute;
-	margin: -15px 0px 0px 50px;
+.logo {
+    position: absolute;
+    margin: -15px 0px 0px 50px;
 }
 
 body {
@@ -62,4 +55,36 @@ p {
     height: 50px;
     border: 1px solid #000;
     background-color: #660000;
+}
+
+#quotescointainer {
+    width: 100%;
+    font-size: 12px;
+    overflow: hidden;
+    /* contain floated elements */
+}
+
+#quotesleft {
+    display: block;
+    float: left;
+    width: 30%;
+    margin-right: 2%;
+    margin-left: 1%;
+    margin-bottom: 10px;
+}
+
+#quotescenter {
+    float: left;
+    width: 30%;
+    margin-right: 2%;
+    margin-left: 1%;
+    margin-bottom: 10px;
+}
+
+#quotesright {
+    float: left;
+    width: 30%;
+    margin-right: 2%;
+    margin-left: 1%;
+    margin-bottom: 10px;
 }
