@@ -57,6 +57,10 @@ p {
     background-color: #660000;
 }
 
+.cimaImg {
+  z-index:999;
+}
+
 #quotescointainer {
     width: 100%;
     font-size: 12px;
