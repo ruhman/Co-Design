@@ -55,6 +55,7 @@ body {
 p {
     text-indent: 50px;
     text-align: justify;
+    font-size: 30px;
 }
 
 .cabecalho {
@@ -62,4 +63,7 @@ p {
     height: 50px;
     border: 1px solid #000;
     background-color: #660000;
+}
+ul{
+  font-size: 30px;
 }
